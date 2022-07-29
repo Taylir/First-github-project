@@ -23,17 +23,9 @@ button:hover{
 
 #mainnav{
     background-color: coral;
-    position:relative;
-    height: 50px;
-}
-
-#mainnav ul{
-    text-align: right;
-    margin: auto;
-    margin-right: 50px;
-    position: relative;
-    top: -45px;
-
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 #mainnav li{
@@ -46,4 +38,21 @@ button:hover{
 
 #mainnav a:hover{
      color: white;
+}
+
+
+
+
+
+
+
+#mainfooter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    background-color: grey;
+    font-size: 18px;
+    color: white;
+    min-height: 50px;
 }
