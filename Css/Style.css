@@ -1,3 +1,5 @@
+/*Generic Global CSS */
+
 body{
     background-color: #f4f4f4;
     color: #555;
@@ -16,10 +18,26 @@ button:hover{
     background-color: coral;
 }
 
+button:active{
+    background-color: rgb(201, 102, 66);
+}
+
 .container{
     width: 80%;
     margin: auto;
 }
+
+/*---------------------------------------------------------------------
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+---------------------------------------------------------------------*/
+
+/* Space below is for Home/ Index page*/
 
 #mainnav{
     background-color: coral;
@@ -40,12 +58,6 @@ button:hover{
      color: white;
 }
 
-
-
-
-
-
-
 #mainfooter{
     display: flex;
     justify-content: center;
@@ -56,3 +68,63 @@ button:hover{
     color: white;
     min-height: 50px;
 }
+
+/*----------------------------------------------------------------------------
+------------------------------------------------------------------------------
+------------------------------------------------------------------------------
+------------------------------------------------------------------------------
+------------------------------------------------------------------------------
+------------------------------------------------------------------------------
+------------------------------------------------------------------------------
+------------------------------------------------------------------------------
+------------------------------------------------------------------------------
+-----------------------------------------------------------------------------*/
+
+/* Space below is for Projects Page*/
+
+#Pheader h1{
+    margin-top: 0px;
+    min-height: 100px;
+    margin-bottom: 100px;
+    background-image:url(../Css/Assets/Fun\ coral.jpg) ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#Pheader h2{
+    text-align: center;
+}
+
+#psection  h3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: dotted lightseagreen 2px;
+}
+
+#psection p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+#Notesor h3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: dotted lightseagreen 2px;
+}
+
+
+#Notesor ul{
+    list-style: none;
+}
+
+#Notesor a{
+    text-decoration: none;
+    color: rgb(226, 221, 221);
+}
+
+
